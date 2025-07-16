@@ -7,32 +7,13 @@ function App() {
 
   return (
     <HashRouter>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/home">Home</Link>
-          </li>
-          <li>
-            <Link to="/profile">Profile</Link>
-          </li>
-          <li>
-            <Link to="/champions">Champions</Link>
-          </li>
-          <li>
-            <Link to="/createbuilds">Create Builds</Link>
-          </li>
-          <li>
-            <Link to="/guides">Guides</Link>
-          </li>
-        
-        </ul>
-      </nav>
       <Routes> 
-        <Route path ="/home" element={<Home />} />
-        <Route path ="/profile" element={<Profile />} />
-        <Route path ="/champions" element={<Champions />} />
-        <Route path ="/createbuilds" element={<CreateBuilds />} />
-        <Route path ="/guides" element={<Guides />} />
+        <Route path ="/home" element={<BadgerLayout />}>
+          <Route path ="/profile" element={<Profile />} />
+          <Route path ="/champions" element={<Champions />} />
+          <Route path ="/createbuilds" element={<CreateBuilds />} />
+          <Route path ="/guides" element={<Guides />} />
+        </Route>
       </Routes>
     </HashRouter>
   )
