@@ -9,14 +9,16 @@ function StatcheckLayout(props) {
             <Navbar>
                 <Container>
                     <Nav className="me-auto">
-                        <Nav.link as={Link} to="/home">Home</Nav.link>
-                        <Nav.link as={Link} to="/profile">Profile</Nav.link>
-                        <Nav.link as={Link} to="/champions">Champions</Nav.link>
-                        <Nav.link as={Link} to="/createbuilds">Create Builds</Nav.link>
-                        <Nav.link as={Link} to="/guides">Guides</Nav.link>
+                        <Nav.Link as={Link} to="/">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
+                        <Nav.Link as={Link} to="/champions">Champions</Nav.Link>
+                        <Nav.Link as={Link} to="/createbuilds">Create Builds</Nav.Link>
+                        <Nav.Link as={Link} to="/guides">Guides</Nav.Link>
                     </Nav>
+
                 </Container>
             </Navbar>
+            <Outlet />
         </div>
     )
 }
