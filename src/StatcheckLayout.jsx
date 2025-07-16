@@ -19,5 +19,6 @@ function StatcheckLayout(props) {
             </Navbar>
         </div>
     )
-
 }
+
+export default StatcheckLayout;

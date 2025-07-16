@@ -1,6 +1,15 @@
 import { useState } from 'react'
-import { HashRouter, Route, Routes, Link } from "react-router";
+import { HashRouter, Route, Routes } from "react-router";
 import './App.css'
+
+import StatcheckLayout from './StatcheckLayout';
+import Champions from './pages/Champions';
+import CreateBuild from './pages/CreateBuild';
+import Guides from './pages/Guides';
+import Home from './pages/Home';
+import Profile from './pages/Profile';
+
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,10 +17,11 @@ function App() {
   return (
     <HashRouter>
       <Routes> 
-        <Route path ="/home" element={<BadgerLayout />}>
+        <Route path ="/" element={<StatcheckLayout />}>
+          <Route index element={<Home></Home>}></Route>
           <Route path ="/profile" element={<Profile />} />
           <Route path ="/champions" element={<Champions />} />
-          <Route path ="/createbuilds" element={<CreateBuilds />} />
+          <Route path ="/createbuild" element={<CreateBuild />} />
           <Route path ="/guides" element={<Guides />} />
         </Route>
       </Routes>
