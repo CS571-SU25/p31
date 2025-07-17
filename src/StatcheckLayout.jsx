@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link, Outlet } from "react-router";
 
 
@@ -15,7 +15,6 @@ function StatcheckLayout(props) {
                         <Nav.Link as={Link} to="/createbuild">Create Builds</Nav.Link>
                         <Nav.Link as={Link} to="/guides">Guides</Nav.Link>
                     </Nav>
-
                 </Container>
             </Navbar>
             <Outlet />
