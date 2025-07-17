@@ -1,9 +1,9 @@
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Row, Col, Card } from "react-bootstrap";
 
 
 export default function Profile(props) {
     return (
-        <Container fluid className ="mt-4">
+        <div>
             <Row>
                 <Col xs={3}>
                     <Card style={{ height: '100px', backgroundColor: '#89CFF0'}}>
@@ -20,6 +20,6 @@ export default function Profile(props) {
                     </Card>
                 </Col>
             </Row>
-        </Container>
+        </div>
     )
 }
