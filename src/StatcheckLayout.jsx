@@ -5,9 +5,9 @@ import { Link, Outlet } from "react-router";
 function StatcheckLayout(props) {
 
     return (
-        <div>
+        <>
             <Navbar bg="dark" variant='dark' fixed="top">
-                <Container>
+                <Container fluid>
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
@@ -17,8 +17,10 @@ function StatcheckLayout(props) {
                     </Nav>
                 </Container>
             </Navbar>
-            <Outlet />
-        </div>
+            <div style={{paddingTop: '56px'}}>
+                <Outlet />
+            </div>
+        </>
     )
 }
 

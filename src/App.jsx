@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { HashRouter, Route, Routes } from "react-router";
-import './App.css'
 
 import StatcheckLayout from './StatcheckLayout';
 import Champions from './pages/Champions';
