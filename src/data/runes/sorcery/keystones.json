@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Summon Aery",
+        "id": "sa",
+        "icon": "keystones/sa.png",
+        "desc": "Basic attacks on hit against enemy champions apply a stack for 4 seconds, refreshing on subsequent applications, expiring upon attacking a new champion, and stacking up to 3 times. The third stack consumes all stacks to deal 40 - 160 (based on level) bonus  adaptive damage and grant you 8% increased damage against champions until you are no longer in combat with them."
+    },
+    {
+        "name": "Arcane Comet",
+        "id": "ac",
+        "icon": "keystones/ac.png",
+        "desc": "Basic attacks on-attack against enemy champions grant a stack for 6 seconds, refreshing on subsequent attacks and stacking up to 6 times. Gain (melee: 6% / ranged: 4.8%) bonus attack speed for each stack, up to (melee: 36% / ranged: 28.8%) at maximum stacks."
+    },
+    {
+        "name": "Phase Rush",
+        "id": "pr",
+        "icon": "keystones/pr.png",
+        "desc": "At 100 Charges, become Energized, empowering your next basic attack to heal you for (melee: 10 - 130 / ranged: 6 - 78) (based on level) (+ (melee: 10% / ranged: 6%) bonus AD) (+ (melee: 5% / ranged: 3%) AP) and grant ( melee: 20% / ranged: 15%)  bonus movement speed for 1 second. Against minions, the healing is 15% effective."
+    }
+]

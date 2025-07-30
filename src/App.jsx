@@ -7,6 +7,7 @@ import CreateBuild from './pages/CreateBuild';
 import Guides from './pages/Guides';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
+import ChampionGuide from './pages/ChampionGuide'
 
 
 
@@ -16,12 +17,13 @@ function App() {
   return (
     <HashRouter>
       <Routes> 
-        <Route path ="/" element={<StatcheckLayout />}>
+        <Route path="/" element={<StatcheckLayout />}>
           <Route index element={<Home></Home>}></Route>
-          <Route path ="/profile" element={<Profile />} />
-          <Route path ="/champions" element={<Champions />} />
-          <Route path ="/createbuild" element={<CreateBuild />} />
-          <Route path ="/guides" element={<Guides />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/champions" element={<Champions />} />
+          <Route path="/createbuild" element={<CreateBuild />} />
+          <Route path="/guides" element={<Guides />} />
+          <Route path="/guides/:id" element={<ChampionGuide/ >} />
         </Route>
       </Routes>
     </HashRouter>

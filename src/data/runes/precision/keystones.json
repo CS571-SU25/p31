@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Press The Attack",
+        "id": "pta",
+        "icon": "precision/pta.png",
+        "desc": "Basic attacks on hit against enemy champions apply a stack for 4 seconds, refreshing on subsequent applications, expiring upon attacking a new champion, and stacking up to 3 times. The third stack consumes all stacks to deal 40 - 160 (based on level) bonus  adaptive damage and grant you 8% increased damage against champions until you are no longer in combat with them."
+    },
+    {
+        "name": "Lethal Tempo",
+        "id": "lt",
+        "icon": "precision/lt.png",
+        "desc": "Basic attacks on-attack against enemy champions grant a stack for 6 seconds, refreshing on subsequent attacks and stacking up to 6 times. Gain (melee: 6% / ranged: 4.8%) bonus attack speed for each stack, up to (melee: 36% / ranged: 28.8%) at maximum stacks."
+    },
+    {
+        "name": "Fleet Footwork",
+        "id": "ff",
+        "icon": "precision/ff.png",
+        "desc": "At 100 Charges, become Energized, empowering your next basic attack to heal you for (melee: 10 - 130 / ranged: 6 - 78) (based on level) (+ (melee: 10% / ranged: 6%) bonus AD) (+ (melee: 5% / ranged: 3%) AP) and grant ( melee: 20% / ranged: 15%)  bonus movement speed for 1 second. Against minions, the healing is 15% effective."
+    },
+    {
+        "name": "Conquerer",
+        "id": "conq",
+        "icon": "precision/conq.png",
+        "desc": "Passive: Dealing damage to enemy champions grants stacks of Conqueror, lasting for 5 seconds, refreshing on subsequent damage against champions, and stacking up to 12 times. Gain (melee: 2 / ranged: 1) stacks from basic attacks and 2 stacks from abilities, spells, and item actives."
+    }
+]

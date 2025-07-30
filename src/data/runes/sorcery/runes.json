@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Axiom Arcanist",
+        "id": "aa",
+        "icon": "sorcery/aa.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Manaflow Band",
+        "id": "mb",
+        "icon": "sorcery/mb.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Nimbus Cloak",
+        "id": "nc",
+        "icon": "sorcery/nc.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Transcendence",
+        "id": "t",
+        "icon": "sorcery/t.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Celerity",
+        "id": "c",
+        "icon": "sorcery/c.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Absolute Focus",
+        "id": "af",
+        "icon": "sorcery/af.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Scorch",
+        "id": "s",
+        "icon": "sorcery/s.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Waterwalking",
+        "id": "ww",
+        "icon": "sorcery/ww.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Gathering Storm",
+        "id": "gs",
+        "icon": "sorcery/gs.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    }
+]

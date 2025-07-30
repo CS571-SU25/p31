@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Cheap Shot",
+        "id": "cs",
+        "icon": "domination/cs.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Taste of Blood",
+        "id": "tob",
+        "icon": "domination/tob.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Sudden Impact",
+        "id": "si",
+        "icon": "domination/si.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Sixth Sense",
+        "id": "ss",
+        "icon": "domination/ss.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Grisly Mementos",
+        "id": "gm",
+        "icon": "domination/gm.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Deep Ward",
+        "id": "dw",
+        "icon": "domination/dw.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Treasure Hunter",
+        "id": "th",
+        "icon": "domination/th.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Relentless Hunter",
+        "id": "rh",
+        "icon": "domination/rh.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Ultimate Hunter",
+        "id": "uh",
+        "icon": "domination/uh.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    }
+]
