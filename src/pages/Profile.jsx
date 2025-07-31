@@ -6,11 +6,13 @@ import ProfileMatchHistory from '../components/ProfileMatchHistory';
 export default function Profile(props) {
 
     const mock = { /* Mock Data for a User */
-        summonerName : "player",
-        summonerTag : "0000",
+        summonerName : "exile",
+        summonerTag : "gdbye",
         region : "NA",
         rank : "Platinum",
+        icon: "ahri_portrait",
         division: "4",
+        overallRecord: [24, 10],
         matchHistory: [
             {
                 id: 0,
@@ -49,12 +51,18 @@ export default function Profile(props) {
     };
     return (
         <>
-            <Container fluid style={{
-                width: "100vw",
+            <Container style={{
+                width: "60vw",
                 padding: "0" }}>
-                <Row>
-                    <ProfileCard username={mock.summonerName} tag={mock.summonerTag} region={mock.region} rank={mock.rank} division={mock.divison}/>
-                </Row>
+                <Container style={{backgroundColor: "#212529", marginTop: "16px", marginBottom: "16px", padding: "4px",}}>
+                    <Row className="d-flex align-items-center" style={{marginBottom: "12px", marginTop: "12px"}}>
+                        <ProfileCard username={mock.summonerName} 
+                        tag={mock.summonerTag} region={mock.region} 
+                        rank={mock.rank} division={mock.division} 
+                        icon={mock.icon} overallRecord={mock.overallRecord}/>
+                    </Row>
+                </Container>
+
                 <Row>
                     <ProfileMatchHistory matchHistory={mock.matchHistory}/>
                 </Row>
