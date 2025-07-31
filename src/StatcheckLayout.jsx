@@ -12,7 +12,7 @@ function StatcheckLayout(props) {
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
                         <Nav.Link as={Link} to="/profile">Profile</Nav.Link>
                         <Nav.Link as={Link} to="/champions">Champions</Nav.Link>
-                        <Nav.Link as={Link} to="/createbuild">Create Builds</Nav.Link>
+                        <Nav.Link as={Link} to="/createguide">Create Guide</Nav.Link>
                         <Nav.Link as={Link} to="/guides">Guides</Nav.Link>
                     </Nav>
                 </Container>

@@ -3,7 +3,7 @@ import { HashRouter, Route, Routes } from "react-router";
 
 import StatcheckLayout from './StatcheckLayout';
 import Champions from './pages/Champions';
-import CreateBuild from './pages/CreateBuild';
+import CreateGuide from './pages/CreateGuide';
 import Guides from './pages/Guides';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
@@ -21,7 +21,7 @@ function App() {
           <Route index element={<Home></Home>}></Route>
           <Route path="/profile" element={<Profile />} />
           <Route path="/champions" element={<Champions />} />
-          <Route path="/createbuild" element={<CreateBuild />} />
+          <Route path="/createguide" element={<CreateGuide />} />
           <Route path="/guides" element={<Guides />} />
           <Route path="/guides/:id" element={<ChampionGuide/ >} />
         </Route>

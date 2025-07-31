@@ -1,0 +1,27 @@
+.rune-card {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    text-align: center;
+}
+
+.rune-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    color: #f8f9fa
+}
+
+.page-title {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f8f9fa
+}
+
+.rune-container {
+    background-color: #333741;
+    border-radius: 0px;
+    padding: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

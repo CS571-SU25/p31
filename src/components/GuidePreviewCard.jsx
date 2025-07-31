@@ -9,24 +9,27 @@ import {Card, Row, Col} from "react-bootstrap";
 
 export default function GuidePreviewCard({guide}) {
   return (
-    <Card className="mb-3 shadow-sm">
+<Card className="mb-3 shadow-sm background" style={{ backgroundColor: '#333741', color: 'white' }}>
       <Row className="g-0 align-items-center">
-        <Col xs={4} md={3} lg={2}>
-          <Card.Img
-            src={`/p31/champ_icons/${guide.champion}.png`}
-            alt={guide.champion}
-            style={{
-              width: "80px",
-              height: "80px",
-              objectFit: "cover",
-              borderRight: "1px solid #dee2e6",
-            }}
-          />
+        <Col xs="auto">
+          <div style={{ width: '100px', height: '100px', backgroundColor: '#333741', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+            <Card.Img
+              src={`/p31/champ_icons/${guide.champion}.png`}
+              alt={guide.champion}
+              style={{
+                maxWidth: '80%',
+                maxHeight: '80%',
+                objectFit: 'contain',
+              }}
+            />
+          </div>
         </Col>
-        <Col xs={8} md={9} lg={10}>
+        <Col>
           <Card.Body>
-            <Card.Title className="mb-1">{guide.title}</Card.Title>
-            <Card.Text className="mb-0 text-muted">
+            <Card.Text className="mb-1 fw-bold">
+              {guide.title} · {guide.champion}
+            </Card.Text>
+            <Card.Text style={{ color: '#cccccc ', fontSize: '0.9rem' }}>
               by {guide.author} · {guide.date}
             </Card.Text>
           </Card.Body>
