@@ -34,12 +34,16 @@ export default function Runecard(props) {
                 loadShards()
             ]);
 
-            setKeystoneData(keystoneList.find(k => k.id === keystone));
+            console.log(keystoneList);
+            setKeystoneData(keystoneList.default.find(k => k.id === keystone));
             console.log("Set Keystone Data");
-            setPrimaryData(primaryRunes.map(id => primaryList.find(r => r.id === id)));
+            setPrimaryData(primaryRunes.map(id => primaryList.default.find(r => r.id === id)));
             console.log("Set Primary Data");
-            setSecondaryData(secondaryRunes.map(id =>secondaryList.find(r => r.id === id)));
+            setSecondaryData(secondaryRunes.map(id =>secondaryList.default.find(r => r.id === id)));
             console.log("Set Secondary Data");
+            console.log("shardList data: ");
+            console.log(shardList);
+            console.log("shards data: " + shards);
             setShardData(shards.map(id => shardList.find(s => s.id === id)));
             console.log("Set Shard Data");
         };

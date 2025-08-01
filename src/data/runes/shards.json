@@ -1,8 +1,14 @@
 [
     {
         "name": "Adaptive Force",
-        "id": "af",
-        "icon": "shards/af.png",
+        "id": "af0",
+        "icon": "shards/af0.png",
+        "desc": "desc" 
+    },
+    {
+        "name": "Adaptive Force",
+        "id": "af1",
+        "icon": "shards/af1.png",
         "desc": "desc" 
     },
     {

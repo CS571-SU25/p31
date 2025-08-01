@@ -12,12 +12,12 @@ import ChampionGuide from './pages/ChampionGuide'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [loggedIn, setLoggedIn] = useState(false);
+  
   return (
     <HashRouter>
       <Routes> 
-        <Route path="/" element={<StatcheckLayout />}>
+        <Route path="/" element={<StatcheckLayout loggedIn={loggedIn} setLoggedIn={setLoggedIn} />}>
           <Route index element={<Home></Home>}></Route>
           <Route path="/profile" element={<Profile />} />
           <Route path="/champions" element={<Champions />} />

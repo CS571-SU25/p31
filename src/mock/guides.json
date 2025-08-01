@@ -13,7 +13,7 @@
         "primaryRunes": ["tob", "gm", "uh"],
         "secondaryTree": "sorcery",
         "secondaryRunes": ["mb", "t"],
-        "shards": ["as", "af", "hs"],
+        "shards": ["as", "af1", "hs"],
         "skillOrder": ["w", "q", "e", "q", "q", "r", "q", "w", "q", "w", "r", "w", "w", "e", "e", "r", "e", "e"],
         "body": "Ahri is a mage that fits the \"mid\" role. She is quite a safe laner and has a lot of utility with her charm (her E spell). With electrocute, the goal is to do short trades where you can proc electrocute. This is usually done by auto attack -> w -> auto attack. W can be replaced with any ability, just make sure to weave autos with a spell."
     },
@@ -26,30 +26,30 @@
         "items": [
             "The Collector", "Berserker's Greaves", "Infinity Edge", "Lord Dominik's Regards", "Rapidfire Cannon", "Guardian Angel"
         ],
-        "primaryTree": "domination",
+        "primaryTree": "precision",
         "keystone": "lt",
-        "primaryRunes": ["tob", "gm", "uh"],
+        "primaryRunes": ["t", "lb", "cdo"],
         "secondaryTree": "sorcery",
-        "secondaryRunes": ["mb", "t"],
-        "shards": ["as", "af", "hs"],
+        "secondaryRunes": ["af", "gs"],
+        "shards": ["as", "af1", "h"],
         "skillOrder": ["w", "q", "e", "q", "q", "r", "q", "w", "q", "w", "r", "w", "w", "e", "e", "r", "e", "e"],
         "body": "This is not really an in-depth guide, more just a proof of concept that I am able to create a guide from an element in a json"
     },
     {
         "id": 2,
         "date": "7-20-2025",
-        "title": "Ahri Standard Guide",
-        "champion": "Ahri",
-        "author": "HideOnBush",
+        "title": "Ryze Standard Guide",
+        "champion": "Ryze",
+        "author": "BlueManGroup1",
         "items": [
             "Malignance", "Sorcerer's Shoes", "Shadowflame", "Zhonya's Hourglass", "Rabadon's Deathcap", "Void Staff"
         ],
-        "primaryTree": "domination",
-        "keystone": "elec",
-        "primaryRunes": ["tob", "gm", "uh"],
-        "secondaryTree": "sorcery",
-        "secondaryRunes": ["mb", "t"],
-        "shards": ["as", "af", "hs"],
+        "primaryTree": "sorcery",
+        "keystone": "pr",
+        "primaryRunes": ["mb", "t", "gs"],
+        "secondaryTree": "resolve",
+        "secondaryRunes": ["bp", "og"],
+        "shards": ["af0", "af1", "hs"],
         "skillOrder": ["w", "q", "e", "q", "q", "r", "q", "w", "q", "w", "r", "w", "w", "e", "e", "r", "e", "e"],
         "body": "This is not really an in-depth guide, more just a proof of concept that I am able to create a guide from an element in a json"
     },
@@ -62,12 +62,12 @@
         "items": [
             "The Collector", "Berserker's Greaves", "Infinity Edge", "Lord Dominik's Regards", "Rapidfire Cannon", "Guardian Angel"
         ],
-        "primaryTree": "domination",
+        "primaryTree": "precision",
         "keystone": "lt",
         "primaryRunes": ["tob", "gm", "uh"],
         "secondaryTree": "sorcery",
         "secondaryRunes": ["mb", "t"],
-        "shards": ["as", "af", "hs"],
+        "shards": ["as", "af1", "hs"],
         "skillOrder": ["w", "q", "e", "q", "q", "r", "q", "w", "q", "w", "r", "w", "w", "e", "e", "r", "e", "e"],
         "body": "This is not really an in-depth guide, more just a proof of concept that I am able to create a guide from an element in a json"
     }

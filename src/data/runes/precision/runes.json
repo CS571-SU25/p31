@@ -50,8 +50,8 @@
     },
     {
         "name": "Cut Down",
-        "id": "cdu",
-        "icon": "precision/cdu.png",
+        "id": "cdo",
+        "icon": "precision/cdo.png",
         "slot": 2,
         "desc": "Passive: Deal 8% increased damage to champions above 60% maximum health"
     },
