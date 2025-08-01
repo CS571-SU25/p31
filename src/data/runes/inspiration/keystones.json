@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Glacial Augment",
+        "id": "ga",
+        "icon": "keystones/ga.png",
+        "desc": "Damaging basic attacks, abilities, item effects, and summoner spells, as well as the application of  crowd control and damage over time effects, generate stacks against enemy  champions, up to one per attack or cast per champion. Applying 3 stacks to a target within a 3 second period causes them to be struck by lightning after a 0.25-second delay, dealing them 70 - 240 (based on level) (+ 10% bonus AD) (+ 5% AP) physical or magic damage."
+    },
+    {
+        "name": "Unsealed Spellbook",
+        "id": "us",
+        "icon": "keystones/us.png",
+        "desc": "Damaging basic attacks and ability damage against enemy champions below 50% of their maximum health deal 30 (+ 11 per Soul) (+ 10% bonus AD) (+ 5% AP) bonus adaptive damage and, after a 1.75-second delay, reap 1 Soul. This cannot occur again for 35 seconds, resetting to 1 second upon scoring a takedown against an enemy champion."
+    },
+    {
+        "name": "First Strike",
+        "id": "fs",
+        "icon": "keystones/fs.png",
+        "desc": "Starting an attack windup against an enemy champion triggers Hail of Blades, and if the windup completes, you gain 2 stacks of the effect for 3 seconds, with the duration refreshing on basic attacks on-attack against enemy champions until all stacks are consumed. Stacks are consumed per basic attack on-attack and you generate an additional stack of the effect each time your basic attack timer is reset."
+    }
+]

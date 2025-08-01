@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Hextech Flashtraption",
+        "id": "hf",
+        "icon": "inspiration/hf.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Magical Footwear",
+        "id": "mf",
+        "icon": "inspiration/mf.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Cash Back",
+        "id": "cb",
+        "icon": "inspiration/cb.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Triple Tonic",
+        "id": "tt",
+        "icon": "inspiration/tt.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Time Warp Tonic",
+        "id": "twt",
+        "icon": "inspiration/twt.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Biscuit Delivery",
+        "id": "bd",
+        "icon": "inspiration/bd.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Cosmic Insight",
+        "id": "ci",
+        "icon": "inspiration/ci.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Approach Velocity",
+        "id": "av",
+        "icon": "inspiration/av.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Jack of All Trades",
+        "id": "jat",
+        "icon": "inspiration/jat.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Demolish",
+        "id": "d",
+        "icon": "resolve/d.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Font of Life",
+        "id": "fl",
+        "icon": "resolve/fl.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Shield Bash",
+        "id": "sb",
+        "icon": "resolve/sb.png",
+        "slot": 0,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Conditioning",
+        "id": "c",
+        "icon": "resolve/c.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Second Wind",
+        "id": "sw",
+        "icon": "resolve/sw.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Bone Plating",
+        "id": "bp",
+        "icon": "resolve/bp.png",
+        "slot": 1,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Overgrowth",
+        "id": "og",
+        "icon": "resolve/og.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },
+    {
+        "name": "Revitalize",
+        "id": "rv",
+        "icon": "resolve/rv.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    },    
+    {
+        "name": "Unfliching",
+        "id": "ufl",
+        "icon": "resolve/ufl.png",
+        "slot": 2,
+        "desc": "Passive: Killing an enemy heals you for 1-23 (based on level)."
+    }
+]

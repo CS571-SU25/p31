@@ -78,7 +78,7 @@ export default function Runecard(props) {
 
     const renderRuneCard = (rune) => {
         console.log("Rendering rune:", rune);
-
+        console.log("Img location: " + `p31/rune_icons/${rune.icon}`);
         return (
             <Col xs="auto" key={rune.id}>
                 <Card className="rune-card text-center p-2" style={{ width: '90px'}}>
@@ -86,14 +86,16 @@ export default function Runecard(props) {
                         backgroundColor: '#333741',
                         width: '80px',
                         height: '80px',
-                        display: 'inline-block',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
                         borderRadius: '4px'
                         }}>
                         <Card.Img
                             variant="top"
-                            src={`../../public/rune_icons/${rune.icon}`}
+                            src={`/p31/public/rune_icons/${rune.icon}`}
                             alt={rune.name}
-                            style={{ width: '80px', height: '80px', objectFit: 'contain', margin: '0 auto' }}
+                            style={{ width: '60px', height: '60px', objectFit: 'contain', margin: '0 auto' }}
                         />
                     </div>
 
@@ -112,14 +114,16 @@ export default function Runecard(props) {
                         backgroundColor: '#333741',
                         width: '80px',
                         height: '80px',
-                        display: 'inline-block',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
                         borderRadius: '4px'
                         }}>
                     <Card.Img
                         variant="top"
-                        src={`../../public/rune_icons/${shard.icon}`}
+                        src={`/p31/public/rune_icons/${shard.icon}`}
                         alt={shard.name}
-                        style={{ width: '80px', height: '80px', objectFit: 'contain', margin: '0 auto' }}
+                        style={{ width: '40px', height: '40px', objectFit: 'contain', margin: '0 auto' }}
                     />
                 </div>
                 <Card.Body className="p-1">
@@ -132,7 +136,7 @@ export default function Runecard(props) {
     const titleCard = () => (
         <Container className="ox-shadow: 0 4px 12px rgba(0, 0, 0, 0.1)" style={{margin: "0px", padding:"0px"}}>
             <Col xs="auto">
-                <Card className="rune-card text-center p-2" style={{ width: '240px', backgroundColor: '#212529', marginTop: '8px'}}>
+                <Card className="rune-card text-center p-2" style={{ width: '240px', backgroundColor: '#212529', marginTop: '0px', marginBottom: '6px'}}>
                     <Card.Body className="p-1">
                         <Card.Text className="page-title">Suggested Runes</Card.Text>
                     </Card.Body>
@@ -148,8 +152,8 @@ export default function Runecard(props) {
     return(
         <>
             <Container>
-                {titleCard()}
                 <Container className="rune-container bg-dark text-light p-3" style={{width: "fit-content"}}>
+                    {titleCard()}
                     <Row className="g-2 justify-content-between">
                         {keystoneData && renderKeystoneCard(keystoneData)}
                         {primaryData.map(r => r && renderRuneCard(r))}
