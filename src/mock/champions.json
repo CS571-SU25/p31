@@ -1,0 +1,38 @@
+[
+    {
+        "name": "aatrox",
+        "icon": "aatrox.png",
+        "skills": [
+            {
+                "name": "Deathbringer Stance",
+                "id": "passive",
+                "desc": "Periodically, Aatrox's next attack...",
+                "icon": "util_icon/unknown.png"
+            },
+            {
+                "name": "The Darkin Blade",
+                "id": "q",
+                "desc": "Aatrox slams his greatsword...",
+                "icon": "util_icon/unknown.png"
+            },
+            {
+                "name": "Infernal Chains",
+                "id": "w",
+                "desc": "waste of time to keep doing all these",
+                "icon": "util_icon/unknown.png"
+            },
+            {
+                "name": "Umbral Dash",
+                "id": "e",
+                "desc": "waste of time to keep doing all these",
+                "icon": "util_icon/unknown.png"
+            },
+            {
+                "name": "World Ender",
+                "id": "r",
+                "desc": "waste of time to keep doing all these",
+                "icon": "util_icon/unknown.png"
+            }
+        ]
+    }
+]

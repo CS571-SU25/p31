@@ -12,12 +12,14 @@ import ChampionGuide from './pages/ChampionGuide'
 
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(false);
-  
+
+  sessionStorage.setItem("user_list", JSON.stringify([{user: "admin", password: "password"}, {user: "nathAn", password:"kroshik"}]));
+  sessionStorage.setItem("logged_in_user", JSON.stringify(null));
+
   return (
     <HashRouter>
       <Routes> 
-        <Route path="/" element={<StatcheckLayout loggedIn={loggedIn} setLoggedIn={setLoggedIn} />}>
+        <Route path="/" element={<StatcheckLayout />}>
           <Route index element={<Home></Home>}></Route>
           <Route path="/profile" element={<Profile />} />
           <Route path="/champions" element={<Champions />} />

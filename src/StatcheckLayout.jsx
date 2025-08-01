@@ -6,10 +6,12 @@ import LoginModal from "./components/LoginModal"
 
 function StatcheckLayout(props) {
     const [showModal, setShowModal] = useState(false);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const navigate = useNavigate();
     const handleLogout = () => {
-        localStorage.removeItem("user");
-        props.setLoggedIn(false);
+        localStorage.removeItem("logged_in_user");
+        console.log("AFTER removal:", localStorage.getItem("logged_in_user")); // Should log `null`
+        setIsLoggedIn(false);
         navigate("/")
     }
     return (
@@ -22,9 +24,9 @@ function StatcheckLayout(props) {
                         <Nav.Link as={Link} to="/champions">Champions</Nav.Link>
                         <Nav.Link as={Link} to="/createguide">Create Guide</Nav.Link>
                         <Nav.Link as={Link} to="/guides">Guides</Nav.Link>
-                        {!props.isLoggedIn ? (
+                        {!isLoggedIn ? (
                             <Nav.Link onClick={() => setShowModal(true)}><div style={{color: "white"}}>Login/Register</div></Nav.Link>
-                        ) : <Nav.Link onClick={() => handleLogoout}>Logout</Nav.Link>
+                        ) : <Nav.Link onClick={handleLogout}>Logout</Nav.Link>
                         }
                     </Nav>
                 </Container>
@@ -35,7 +37,8 @@ function StatcheckLayout(props) {
             <LoginModal
             show={showModal}
             onHide={() => setShowModal(false)}
-            setIsLoggedIn={props.setIsLoggedIn}
+            setIsLoggedIn={setIsLoggedIn}
+            isLoggedIn={isLoggedIn}
             />
         </>
     )
