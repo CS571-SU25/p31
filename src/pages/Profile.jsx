@@ -54,7 +54,7 @@ export default function Profile(props) {
             <Container style={{
                 width: "60vw",
                 padding: "0" }}>
-                <Container style={{backgroundColor: "#212529", marginTop: "16px", marginBottom: "16px", padding: "4px",}}>
+                <Container style={{backgroundColor: "#212529", marginTop: "16px", marginBottom: "16px"}}>
                     <Row className="d-flex align-items-center" style={{marginBottom: "12px", marginTop: "12px"}}>
                         <ProfileCard username={mock.summonerName} 
                         tag={mock.summonerTag} region={mock.region} 

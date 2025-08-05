@@ -6,12 +6,6 @@
         "desc": "desc" 
     },
     {
-        "name": "Adaptive Force",
-        "id": "af1",
-        "icon": "shards/af1.png",
-        "desc": "desc" 
-    },
-    {
         "name": "Attack Speed",
         "id": "as",
         "icon": "shards/as.png",
@@ -24,6 +18,13 @@
         "desc": "desc" 
     },
     {
+        "name": "Adaptive Force",
+        "id": "af1",
+        "icon": "shards/af1.png",
+        "desc": "desc" 
+    },
+    
+    {
         "name": "Movement Speed",
         "id": "ms",
         "icon": "shards/ms.png",
@@ -31,8 +32,8 @@
     },
     {
         "name": "Health Scaling",
-        "id": "hs",
-        "icon": "shards/hs.png",
+        "id": "hs1",
+        "icon": "shards/hs1.png",
         "desc": "desc" 
     },
     {
@@ -45,6 +46,12 @@
         "name": "Tenacity and Slow Resistance",
         "id": "tsr",
         "icon": "shards/tsr.png",
+        "desc": "desc" 
+    },
+    {
+        "name": "Health Scaling",
+        "id": "hs2",
+        "icon": "shards/hs2.png",
         "desc": "desc" 
     }
 ]

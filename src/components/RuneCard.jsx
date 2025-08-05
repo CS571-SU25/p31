@@ -1,9 +1,9 @@
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { useEffect, useState } from "react";
 import { loadRunes, loadKeystones, loadShards } from "../utils/loadRuneData";
-import './RuneCard.css';
+import '../styles/RuneCard.css';
 
-export default function Runecard(props) {
+export default function RuneCard(props) {
     const [keystoneData, setKeystoneData] = useState(null); // Keystone object
     const [primaryData, setPrimaryData] = useState([]); // List of primary runes for this particular page
     const [secondaryData, setSecondaryData] = useState([]); // List of secondary runes for this particular page 
@@ -155,17 +155,15 @@ export default function Runecard(props) {
 
     return(
         <>
-            <Container>
-                <Container className="rune-container bg-dark text-light p-3" style={{width: "fit-content"}}>
-                    {titleCard()}
-                    <Row className="g-2 justify-content-between">
-                        {keystoneData && renderKeystoneCard(keystoneData)}
-                        {primaryData.map(r => r && renderRuneCard(r))}
-                        {secondaryData.map(r => r && renderRuneCard(r))}
-                        {shardData.map(s => s && renderShardCard(s))}
-                    </Row>
-                </Container>
-            </Container>
+        <div fluid className="rune-container bg-dark text-light p-3" style={{width: "fit-content", marginTop: "16px"}}>
+            {titleCard()}
+            <Row className="g-2 justify-content-between">
+                {keystoneData && renderKeystoneCard(keystoneData)}
+                {primaryData.map(r => r && renderRuneCard(r))}
+                {secondaryData.map(r => r && renderRuneCard(r))}
+                {shardData.map(s => s && renderShardCard(s))}
+            </Row>
+        </div>
         </>
 
     )

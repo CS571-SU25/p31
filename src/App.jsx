@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { HashRouter, Route, Routes } from "react-router";
 
 import StatcheckLayout from './StatcheckLayout';
@@ -14,7 +14,16 @@ import ChampionGuide from './pages/ChampionGuide'
 function App() {
 
   sessionStorage.setItem("user_list", JSON.stringify([{user: "admin", password: "password"}, {user: "nathAn", password:"kroshik"}]));
-  sessionStorage.setItem("logged_in_user", JSON.stringify(null));
+
+  useEffect(() => {
+    sessionStorage.setItem("logged_in_user", JSON.stringify(null));
+  }, []);
+  useEffect(() => {
+    const existingGuides = sessionStorage.getItem("created_guides"); 
+      if (!existingGuides) {
+        sessionStorage.setItem("created_guides", JSON.stringify([]));
+      }
+  }, [])
 
   return (
     <HashRouter>

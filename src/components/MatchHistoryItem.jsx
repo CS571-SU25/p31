@@ -6,10 +6,10 @@ export default function MatchHistoryItem({ match }) {
     return (
         <>
             <Col xs={2} style= {{padding : ".25rem"}}>
-                <Image src={`/p31/champ_icons/${match.champion}.png`} alt={match.champion} width="80px" height="100%" />
+                <Image src={`/p31/champ_icons/${match.champion.toLowerCase()}.png`} alt={match.champion} width="80px" height="100%" />
             </Col>
             <Col className="text-d-flex align-items-center">
-                <h4>{match.kills}/{match.deaths}/{match.assists}  -  {match.creepScore} CS</h4>
+                <h1>{match.kills}/{match.deaths}/{match.assists}  -  {match.creepScore} CS</h1>
                 <p>{kdaRatio.toFixed(2)} KDA</p>
             </Col>
         </>

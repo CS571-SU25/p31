@@ -11,8 +11,8 @@ export default function ProfileCard({username, tag, region, rank, division, icon
         <Col xs="auto" className="d-flex align-items-center">
             <Container>
                 <h1>{username}#{tag} - {region}</h1>
-                <h5>{rank} {division} ‎ ‎ ‎ ‎ - ‎ ‎ ‎ ‎  
-                    {overallRecord[0]} W / {overallRecord[1]} L ({winrate}%)</h5>
+                <h2>{rank} {division} ‎ ‎ ‎ ‎ - ‎ ‎ ‎ ‎  
+                    {overallRecord[0]} W / {overallRecord[1]} L ({winrate}%)</h2>
             </Container>
         </Col>
         </>

@@ -8,13 +8,14 @@ import {Card, Row, Col} from "react-bootstrap";
  */
 
 export default function GuidePreviewCard({guide}) {
+  console.log(guide);
   return (
-<Card className="mb-3 shadow-sm background" style={{ backgroundColor: '#333741', color: 'white' }}>
+<Card className="mb-3 shadow-sm background" style={{ backgroundColor: '#212529', color: 'white' }}>
       <Row className="g-0 align-items-center">
         <Col xs="auto">
-          <div style={{ width: '100px', height: '100px', backgroundColor: '#333741', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+          <div style={{ width: '100px', height: '100px', backgroundColor: '#212529', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Card.Img
-              src={`/p31/champ_icons/${guide.champion}.png`}
+              src={`/p31/champ_icons/${guide.icon.toLowerCase()}`}
               alt={guide.champion}
               style={{
                 maxWidth: '80%',

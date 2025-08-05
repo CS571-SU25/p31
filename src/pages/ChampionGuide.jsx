@@ -11,11 +11,11 @@ export default function ChampionGuide() {
         <Container style={{marginTop: "16px", width: "fit-content"}}>
             <Row>
                 <Col xs="auto">
-                    <Image src={`/p31/champ_icons/${guide.champion}.png`} alt={guide.champion}/>     
+                    <Image src={`/p31/champ_icons/${guide.icon}`} alt={guide.champion}/>     
                 </Col>
                 <Col>
                     <h1>{guide.title}</h1> 
-                    <h5>By {guide.author}</h5>
+                    <p>By {guide.author}</p>
                     <p style={{ color: '#AEB1B5' }}>Created on: {guide.date}</p>
                 </Col>
             </Row>

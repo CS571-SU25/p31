@@ -13,12 +13,16 @@ export default function Guides(props) {
 
     const [filter, setFilter] = useState('');
 
-    const filteredGuides = guideData.filter(guide => guide.champion.toLowerCase().includes(filter.toLowerCase()));
+    const sessionGuides = (JSON.parse(sessionStorage.getItem("created_guides")) || []).filter(guide => guide.id !== 0);
+    const allGuides = [...sessionGuides, ...guideData];
+
+    console.log(allGuides);
+    const filteredGuides = allGuides.filter(guide => guide.champion && guide.champion.toLowerCase().includes(filter.toLowerCase()));
 
     
 
     return (
-        <Container className="mt-4">
+        <Container className="mt-4" style={{padding: 0}}>
             <Form.Group>
                 <Form.Label>Filter By Champions</Form.Label>
                 <Form.Control 
@@ -29,6 +33,7 @@ export default function Guides(props) {
                 />
             </Form.Group>
             <p></p>
+
             {filteredGuides.map((guide) => (
                 <Link key={guide.id} to={`/guides/${guide.id}`} state={guide} style={{ textDecoration: 'none', color: 'inherit' }}>
                     <GuidePreviewCard guide={guide} />

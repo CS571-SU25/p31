@@ -78,7 +78,7 @@ export default function LoginModal(props) {
             if(!userExists) {
                 userList.push({"user": username, "password": password});
                 sessionStorage.setItem("user_list", JSON.stringify(userList));
-                sessionStorage.setItem("logged_in_user", JSON.stringify(username));
+                sessionStorage.setItem("logged_in_user", username);
                 props.setIsLoggedIn(true);
                 props.onHide();
                 clearFields();

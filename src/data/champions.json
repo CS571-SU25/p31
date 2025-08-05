@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Aatrox",
+        "icon": "aatrox.png",
+        "wikiLink": "https://leagueoflegends.fandom.com/wiki/Aatrox/LoL"
+    },
+    {
+        "name": "Ahri",
+        "icon": "ahri.png",
+        "wikiLink": "https://leagueoflegends.fandom.com/wiki/Ahri/LoL"
+    },
+    {
+        "name": "Akali",
+        "icon": "akali.png",
+        "wikiLink": "https://leagueoflegends.fandom.com/wiki/Akali/LoL"
+    },
+    {
+        "name": "Akshan",
+        "icon": "akshan.png",
+        "wikiLink": "https://leagueoflegends.fandom.com/wiki/Akshan/LoL"
+    },
+    {
+        "name": "Teemo",
+        "icon": "teemo.png",
+        "wikiLink": "https://leagueoflegends.fandom.com/wiki/Teemo/LoL"
+    }
+]
